@@ -1,4 +1,4 @@
-# Project-of-Microcomputer-Principles-and-Embedded-Systems
+# Autonomous Line Tracking Car
 
 ## Description
 This is used for the final project of Intelligent Sensing and Signal Processing.
