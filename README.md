@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 # Project-of-Microcomputer-Principles-and-Embedded-Systems
 
 ## Description
-This is an open-source enhanced derivative work, used for the final project of Microcomputer Principles and Embedded Systems.
+This is used for the final project of Intelligent Sensing and Signal Processing.
 
-The overall framework of the project is based on open source:
-https://oshwhub.com/sngelswyh/stm32-smart-desktop-pet
+I design an intelligent patrol vehicle that can promptly correct path deviations and smoothly and rapidly follow the track automatically on complex courses.
 
-Based on ultrasonic sensors, I designed and added the autonomous obstacle avoidance function.
-=======
-# Project-of-Microcomputer-Principles-and-Embedded-Systems
->>>>>>> e330c4fc6402da986b613a6e84e21a549f9f33c3
+Based on the STM32 minimal system board, the entire process from hardware selection to bottom-level software development was completed.
+
+The underlying codes for motor drive and tracking sensor were written, and the data filtering and PID control algorithms were independently designed. This effectively solved the path deviation problem of the car on the complex track.
