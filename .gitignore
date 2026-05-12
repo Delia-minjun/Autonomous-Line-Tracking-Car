@@ -1,1 +1,60 @@
 __pycache__/
+# ========================
+# C/C++ 编译生成文件
+# ========================
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.out
+*.app
+
+# ========================
+# CMake / 编译目录
+# ========================
+build/
+bin/
+out/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# ========================
+# ROS / ROS2 工作空间特有
+# ========================
+devel/
+install/
+log/
+.catkin_workspace
+.roscore_ign_pid
+COLCON_IGNORE
+build_isolated/
+devel_isolated/
+
+# ========================
+# STM32 / 嵌入式开发特有 (Keil/CubeIDE)
+# ========================
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+Objects/
+Listings/
+Debug/
+Release/
+*.bak
+*.dep
+
+# ========================
+# 编辑器与操作系统缓存
+# ========================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
